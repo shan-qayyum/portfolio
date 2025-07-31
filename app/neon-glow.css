@@ -1,0 +1,18 @@
+.neon-outline {
+    box-shadow:
+        0 0 8px #a855f7,
+        0 0 16px #a855f7,
+        0 0 24px #a855f7;
+    border-radius: 0.75rem;
+    border: 2px solid #a855f7;
+}
+
+/* Neon glow effect for text borders */
+.neon-glow {
+    text-shadow:
+        0 0 8px #fff,
+        0 0 16px #e600ff,
+        0 0 24px #e600ff,
+        0 0 32px #00e6ff,
+        0 0 40px #00e6ff;
+}

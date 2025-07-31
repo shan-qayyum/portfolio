@@ -1,6 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('./neon-glow.css');
+
+@import url('./neon-glow.css');
 
 @layer base {
   :root {
@@ -70,9 +78,11 @@
   * {
     @apply border-border !scroll-smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   button {
     @apply active:outline-none;
   }
