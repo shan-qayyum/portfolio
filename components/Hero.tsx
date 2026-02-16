@@ -17,7 +17,7 @@ const Hero = () => {
     }
   };
   return (
-    <div id="top" className="pb-20 pt-36 relative overflow-x-hidden">
+    <div id="top" className="pb-10 pt-36 relative overflow-x-hidden">
       {/* Animated gradient background */}
       <div className="absolute inset-0 -z-10 animate-gradient bg-gradient-to-br from-purple-500 via-pink-300 to-blue-500 opacity-40"></div>
       {/**
