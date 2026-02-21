@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description: "Modern & Minimal JS Mastery Portfolio",
 };
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function RootLayout({
   children,
 }: Readonly<{

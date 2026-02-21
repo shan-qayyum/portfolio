@@ -10,6 +10,10 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { Suspense } from "react";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 const Home = () => {
   return (

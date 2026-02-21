@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect } from "react";
 import React, { useRef, useState } from "react";
 import { FaLocationArrow } from "react-icons/fa6";
